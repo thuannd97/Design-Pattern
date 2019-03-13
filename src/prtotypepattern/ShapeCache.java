@@ -14,6 +14,10 @@ import java.util.Hashtable;
  */
 public class ShapeCache {
 
+    /**
+     * Create a class to get concrete classes from database and store them in a
+     * Hashtable.
+     */
     private static Hashtable<String, Shape> shapeMap
             = new Hashtable<String, Shape>();
 
